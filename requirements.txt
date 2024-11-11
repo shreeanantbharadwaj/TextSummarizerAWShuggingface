@@ -1,0 +1,21 @@
+transformers                # Hugging Face Transformers library for NLP models and pipelines
+transformers[sentencepiece]  # Transformer models with SentencePiece, useful for tokenization in multilingual tasks
+datasets                     # Hugging Face Datasets library for accessing and processing NLP datasets
+sacrebleu                    # BLEU score evaluation metric for machine translation and text generation tasks
+rouge_score                  # ROUGE score for evaluating text summarization and generation quality
+py7zr                        # Library for handling .7z archive files, useful for extracting compressed data
+pandas                       # Data analysis and manipulation library, essential for handling tabular data
+nltk                         # Natural Language Toolkit for NLP tasks like tokenization, stemming, and more
+tqdm                         # Progress bar library for tracking loops, particularly in data processing
+PyYAML                       # Library for parsing and writing YAML, often used for configuration files
+matplotlib                   # Plotting library for data visualization
+torch                        # PyTorch deep learning framework, used for model training and inference
+notebook                     # Jupyter Notebook environment for interactive code execution
+boto3                        # AWS SDK for Python, allows for interaction with AWS services like S3
+mypy-boto3-s3                # Type annotations for AWS S3, enhancing type safety in S3 interactions
+python-box==6.0.2            # Python dictionary with dot notation support for cleaner, hierarchical data access
+ensure==1.0.2                # Utility library providing assurance checks for code correctness
+fastapi==0.78.0              # Web framework for building APIs with high performance and ease of use
+uvicorn==0.18.3              # ASGI server for serving FastAPI applications, ensuring efficient API deployment
+Jinja2==3.1.2                # Templating engine for rendering HTML or text files dynamically (fixed typo from = to ==)
+-e .                         # Editable install option, allowing local package development changes to reflect instantly
